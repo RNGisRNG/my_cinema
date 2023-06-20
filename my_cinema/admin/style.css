@@ -1,0 +1,173 @@
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    color: grey;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+}
+
+h4 {
+    margin-right: 80px;
+}
+
+body {
+    margin: auto;
+}
+
+.body {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.header_width {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div {
+    padding: 20px;
+}
+
+nav ul {
+    position: relative;
+    right: 40px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: cornflowerblue;
+}
+
+main {
+    width: 100%;
+}
+
+.menu {
+    background-color: white;
+    border-bottom: 1px solid black;
+    height: 55px;
+    padding: 10px 30px;
+}
+
+#search {
+    background-color: rgb(240, 240, 240);
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.sections {
+    background-color: rgb(232, 237, 234);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+    width: 1400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.form_flex {
+    border-bottom: 1px solid grey;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input:hover {
+    background-color: cornflowerblue;
+}
+
+form input, select {
+    margin-right: 50px;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+.result_tab {
+    border-bottom: 1px solid grey;
+    overflow: scroll;
+    max-height: 500px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+tr td {
+    padding: 15px;
+}
+
+th {
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+caption {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(232, 232, 232);
+}
+
+.movie_duration {
+    width: 80px;
+}
+
+#schedule_section section {
+    display: flex;
+}
+
+#schedule_section table {
+    margin-bottom: 30px;
+}
+
+.successfully_message {
+    text-align: center;
+    padding-top: 15px;
+}
